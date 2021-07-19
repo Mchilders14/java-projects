@@ -30,23 +30,23 @@ public class WizardInventoryApp {
 			switch (command) {
 			case "show":
 				System.out.println("List all items:");
-				System.out.println("====================");
+				System.out.println("=====================");
 				listItems();
 				break;
 			case "grab":
 				System.out.println("Add an item:");
-				System.out.println("====================");
+				System.out.println("=====================");
 				addItem();
 				break;
 			case "edit":
 				System.out.println("Edit an item:");
-				System.out.println("====================");
+				System.out.println("=====================");
 				int itemNumber = Console.getInt("Number: ");
 				editItem(itemNumber);			
 				break;
 			case "drop":
 				System.out.println("Delete an item:");
-				System.out.println("====================");
+				System.out.println("=====================");
 				itemNumber = Console.getInt("Number: ");
 				dropItem(itemNumber);
 				break;
